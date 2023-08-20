@@ -1,0 +1,30 @@
+<div class="calculadora">
+    <div class="pantalla">{{pantalla}}</div>
+        <div class="teclado">
+            <div class="linea-teclas">
+                <button class="teclas" (click)="numeroPulsado('7')">7</button>
+                <button class="teclas" (click)="numeroPulsado('8')">8</button>
+                <button class="teclas" (click)="numeroPulsado('9')">9</button>
+                <button class="teclas" (click)="operadorPulsado('-')">-</button>
+            </div>
+            <div class="linea-teclas">
+                <button class="teclas" (click)="numeroPulsado('4')">4</button>
+                <button class="teclas" (click)="numeroPulsado('5')">5</button>
+                <button class="teclas" (click)="numeroPulsado('6')">6</button>
+                <button class="teclas" (click)="operadorPulsado('+')">+</button>
+            </div>
+            <div class="linea-teclas">
+                <button class="teclas" (click)="numeroPulsado('1')">1</button>
+                <button class="teclas" (click)="numeroPulsado('2')">2</button>
+                <button class="teclas" (click)="numeroPulsado('3')">3</button>
+                <button class="teclas" (click)="operadorPulsado('*')">*</button>
+            </div>
+            <div class="linea-teclas">
+                <button class="teclas" (click)="numeroPulsado('0')">0</button>
+                <button class="teclas" (click)="backPulsado()">B</button>
+                <button class="teclas" (click)="puntoPulsado()">.</button>
+                <button class="teclas" (click)="igualPulsado()">=</button>
+            </div>
+        </div>
+   
+</div>

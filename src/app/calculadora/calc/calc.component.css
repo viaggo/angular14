@@ -1,0 +1,38 @@
+.calculadora {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid black;
+    padding: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pantalla {
+    background-color: greenyellow;
+    color: white;
+    font-size: 3em;
+    line-height: 1em;
+    min-height: 1em;
+    width: 100%;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.linea-teclas{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.teclas {
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+    width: 24%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    cursor: pointer;
+}

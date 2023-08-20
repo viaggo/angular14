@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app1';
+  nombre: string ="clabelo";
+  entrada="";
+
+  clickBoton():void {
+    this.nombre = this.entrada;
+   
+  }
 }
